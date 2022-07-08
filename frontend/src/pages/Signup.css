@@ -1,0 +1,27 @@
+.signup__image--container {
+    background-image: url(https://res.cloudinary.com/dym7hxcfn/image/upload/v1657085576/stock-vector-black-simple-finger-presses-on-sign-up-button-concept-of-click-here-like-abstract-ui-symbol-and-618096680_qrp9kq.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://res.cloudinary.com/dym7hxcfn/image/upload/v1657085576/stock-photo-woman-using-login-interface-on-touch-screen-touching-login-box-user-name-and-password-inputs-on-483170893_vmxyu6.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
